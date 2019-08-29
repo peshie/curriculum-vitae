@@ -1,0 +1,96 @@
+        body { 
+            font: 16px Georgia, Sans-Serif;
+             line-height: 24px; 
+             padding: 0;
+             margin: 0; 
+             background-color:#dfe4e9;
+             }
+
+        .clear { 
+            clear: both; 
+            }
+        #page-wrap { 
+            width: 800px;
+             margin: 40px auto 60px;
+                 }
+        #contact-info { 
+            float: right;
+             margin: 60px 0 0 0;
+         }
+        h1 {
+             margin: 0 0 16px 0; 
+            padding: 0 0 16px 0; 
+            font-size: 42px; 
+            font-weight: bold; 
+            letter-spacing: -2px; 
+            
+         }
+        h2 { 
+            font-size: 20px; 
+            margin: 0 0 6px 0;
+            position: relative; }
+        h2 span { 
+            position: absolute;
+             bottom: 0; 
+             right: 0; 
+             font-style: italic; 
+            color: #999;
+             font-weight: normal;
+             }
+        p {
+             margin: 0 0 16px 0;
+             }
+        a { 
+            color: black; 
+            text-decoration: none; 
+            
+             }
+        a:hover { 
+            border-bottom-style: solid; 
+            color: rgb(28, 8, 99);
+            border-bottom:dotted;
+            }
+        ul { 
+            margin: 0 0 32px 17px;
+            list-style:unset;
+         }
+        #objective {
+             width: 500px; float: left; 
+            }
+        #objective p {
+             font-family: Georgia, Serif; 
+             font-style: italic; color: #666; 
+            }
+        dt { 
+            font-style: italic; font-weight: bold; 
+            font-size: 18px; 
+            text-align: right; 
+            padding: 0 20px 0 0;
+            width: 150px; 
+            float: left;  
+            border-right: 1px solid #999;  
+            }
+        dt.f{
+            height:80px ;
+             }
+        dt.ff{
+            height:250px;
+            
+        }
+        dt.fff{
+            height:150px;
+            
+        }
+        dd { width: 600px; 
+            float: right;
+           display: flex;
+            }
+        dd.clear { 
+            float: none; 
+            margin: 0; 
+            height: 15px; 
+            }
+       footer{
+           text-align: center;
+           color: rgb(105, 10, 10);
+       }
