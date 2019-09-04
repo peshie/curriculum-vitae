@@ -1,92 +1,124 @@
 <!DOCTYPE html>
-	<html>
-	<head>
-		<title>Peshie's CV</title>
-	</head>
+<html>
 
-	<body>
-		<br><center>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Akpan Patience CV</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+	<script src="main.js"></script>
+</head>
+
+<body>
+	<header>
+		<div id="page-wrap">
 			<img src="https://res.cloudinary.com/patience/image/upload/v1566544234/peshie.jpg" alt="peshie.jpg" width="200" height="230">
-			<table>
-				<tr>				
-					<td><h1>AKPAN, PATIENCE FRIDAY</h1></td>
-				</tr>
-			
-				<tr>
-					<td><h3>7 Bailey Street, off Pedro road, Bariga, Shomolu, Lagos State.<br />
-					08108733000 <br /><a href="mailto:akpanpatiencefriday@gmail.com"> akpanpatiencefriday@gmail.com</a> <br /> <a href="linkedin.com/in/patience-akpan-1442b510a">linkedin.com/in/patience-akpan-1442b510a </a> </h3> </td>
-				</tr>
-		 	</table>
-	 	</center>
 
-	 	<hr>
-		<table cellspacing="10">
-			<tr>
-				<td><h2>PROFILE </h2>
-				A graduate of Computer Science from the University of Ilorin with experience in Research, Programming, Design and Networking principles. Highly skilled in Digital Marketing, Basic Website designing, and Microsoft Office proficiency. Also, possess outstanding Technical and Communication (verbal and written), profound level of integrity and diligence, analytical skills and Quick adaptability and a keen interest in Information Security. A fast learner who fits best into the organization with little training, once the job position is as motivating, inspiring and challenging.</td>
-			</tr>
-			<tr>	
-				<td><h2>CAREER OBJECTIVE</h2>
-				To build a career with exceptionally talented individuals with a passion for international development and utilizing my intelligence, adaptability, flexibility and dedication to duties to assist in contributing to finding solutions to some of the world’s most pressing problems.</td>
-			</tr>
-		</table>
-		<hr>
+			<div id="contact-info" class="vcard">
+				<h1 class="fn"> AKPAN, PATIENCE F.</h1>
 
-		<table cellspacing="10">
-			<tr>
-				<td>
-					<h2>EXPERIENCE</h2>
-					<ul>
-				 		<li>National Youth Service Corps (NYSC) <br />
-						Sound Knowledge High School, Ojodu.<br />
-						Corps Member/ICT Teacher <br />
-						Oct. 2018 – Oct. 2019 (NYSC completion date: 23rd Oct., 2019)</li>
-				
-						<li>Bank of Industry<br />
-						23, Marina, Lagos Island, Lagos State<br />
-						Intern <br />
-						Sept. 2017 – Dec. 2017 </li>
-				
-						<li>Data Sciences Nig. Ltd.<br />
-						Obodex house, 237, Ikorodu road, Lagos State<br />
-						Intern<br />
-						Aug. 2017 - Nov. 2017</li>	
-					</ul>
-				</td>
+				<img src="https://res.cloudinary.com/patience/image/upload/v1567058527/address_ujlvv3.png" width="20px">: 7, Bailey Street, off Pedro road, Bariga, Shomolu, Lagos State.
+				<br>
 
-			<tr>
-				<td>
-					<h2>EDUCATION</h2> 
-					
-					<ul>
-						<li>University of Ilorin, Ilorin, Kwara State.<br />
-						B.Sc. (Hons) Computer Science<br />
-						Sept. 2014 – Sept. 2018 </li>
-					</ul>
+				<img src="https://res.cloudinary.com/patience/image/upload/v1567060871/Call_o4zait.png" width="20px" height="30px">: 08108733000
+				<br >
+				<a href="mailto:akpanpatiencefriday@gmail.com">
+					<img src="https://res.cloudinary.com/patience/image/upload/v1567058527/gmail_czqja6.png" width="20px">: akpanpatiencefriday@gmail.com</a>
+				<br>
+				<a href="linkedin.com/in/patience-akpan-1442b510a">
+					<img src="https://res.cloudinary.com/patience/image/upload/v1567058527/linkedin_e81gil.png" width="20px">:patience-akpan </a>
 
-				</td>
-			</tr>
+				</p>
+				<div class="popUp">
+				<button class="open-button" onclick="openForm()">Contact Me</button>
+				<div class="form-popup" id="contactMe">
+				<form action="#" class="form-container" method="post" name="contact-form" onsubmit="return(validate());">
+					<label><b>Name:</b></label><input type="text" id="name" placeholder="Name" minlength="4">
+					<label><b>Email:</b></label><input type="email" id="email" placeholder="Email">
+					<label><b>Title</b></label><input type="text" id="title" placeholder="Title:">
+					<label><b>Message</b></label><input type="text" id="message" placeholder="Message"  minlength="20" >
+					<button type="submit" class="btn" >Send Message</button></a>
+				</form>
+				</div>
+			</div>
+			</div>
+	</header>
+	<hr>
+	<div id="objective">
+		<h2 class="fn">CAREER OBJECTIVE</h2>
+		<p>To build a career with exceptionally talented individuals with a passion for international development and utilizing my
+			intelligence, adaptability, flexibility and dedication to duties to assist in contributing to finding solutions to some
+			of the world’s most pressing problems.</td>
+		</p>
+	</div>
 
-			<tr>
-				<td>
-					<h2>TRAININGS AND CERTIFICATION </h2>
-						<ul>
-							<li>Google Digital skills for Africa (Digital Marketing Certification)</li>
-							<li>Young African Leader Initiative Certifications (Network Member)</li>
-							<li>Photography (Skill Acquisition Entrepreneurship Development)</li>
-							<li>Good understanding of Networking Principles</li>
-							<li>Web development skills using HTML and CSS</li>
-							<li>Nigerian Association of Computer Science Students:
-							Developing Internationally Acceptable Software (DEVINTAS 2015)</li>
-						</ul>
-				</td>
-			</tr>
-		</table>	
-		<hr>
-	
-	<center>
-		<footer>Referees: ON REQUEST</footer>
-	</center>
-	
+
+	<div class="clear"></div>
+
+	<dl>
+		<dd class="clear"></dd>
+
+		<dt class="f">EDUCATION</dt>
+		<dd>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; University of Ilorin, Ilorin, Kwara State.
+			<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; B.Sc. (Hons) Computer Science
+			<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Sept. 2014 – Sept. 2018
+		</dd>
+
+		<dd class="clear"></dd>
+
+		<dt class="ff">EXPERIENCE</dt>
+		<dd>
+			<ul>
+				<li>National Youth Service Corps (NYSC)
+					<br> Sound Knowledge High School, Ojodu.
+					<br> Corps Member/ICT Teacher
+					<br /> Oct. 2018 – Oct. 2019 (NYSC completion date: 23rd Oct., 2019)</li>
+
+				<li>Bank of Industry
+					<br> 23, Marina, Lagos Island, Lagos State
+					<br> Intern
+					<br /> Sept. 2017 – Dec. 2017 </li>
+
+				<li>Data Sciences Nig. Ltd.
+					<br> Obodex house, 237, Ikorodu road, Lagos State
+					<br> Intern
+					<br /> Aug. 2017 - Nov. 2017</li>
+			</ul>
+		</dd>
+
+		<dd class="clear"></dd>
+
+		<dt class="fff">SKILLS AND CERTIFICATION </dt>
+		<dd>
+			<ul>
+				<li>Google Digital skills for Africa (Digital Marketing Certification)</li>
+				<li>Young African Leader Initiative Certifications (Network Member)</li>
+				<li>Photography (Skill Acquisition Entrepreneurship Development)</li>
+				<li>Web development skills using HTML and CSS</li>
+				<li>Nigerian Association of Computer Science Students: Developing Internationally Acceptable Software (DEVINTAS 2015)</li>
+			</ul>
+		</dd>
+
+		<dd class="clear"></dd>
+
+
+		<dt class="4">REFERENCE</dt>
+		<dd>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Available on request</dd>
+
+		<dd class="clear"></dd>
+	</dl>
+
+	<div class="clear"></div>
+
+	</div>
+	<footer>
+		&copy;StartNg2019
+	</footer>
+
+
 </body>
+
 </html>
