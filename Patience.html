@@ -30,6 +30,18 @@
 					<img src="https://res.cloudinary.com/patience/image/upload/v1567058527/linkedin_e81gil.png" width="20px">:patience-akpan </a>
 
 				</p>
+				<div class="popUp">
+				<button class="open-button" onclick="openForm()">Contact Me</button>
+				<div class="form-popup" id="contactMe">
+				<form action="#" class="form-container" method="post" name="contact-form" onsubmit="return(validate());">
+					<label><b>Name:</b></label><input type="text" id="name" placeholder="Name" minlength="4">
+					<label><b>Email:</b></label><input type="email" id="email" placeholder="Email">
+					<label><b>Title</b></label><input type="text" id="title" placeholder="Title:">
+					<label><b>Message</b></label><input type="text" id="message" placeholder="Message"  minlength="20" >
+					<button type="submit" class="btn" >Send Message</button></a>
+				</form>
+				</div>
+			</div>
 			</div>
 	</header>
 	<hr>
