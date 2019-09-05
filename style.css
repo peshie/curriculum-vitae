@@ -38,7 +38,20 @@
                    border: 3px solid #f1f1f1;
                    z-index: 9;
                  }
-                 
+                 /* the Close Button */
+               .close {
+                   color: #aaaaaa;
+                   float: right;
+                   font-size: 28px;
+                   font-weight: bold;
+                  }
+               .close:hover,
+               .close:focus {
+                   color: #000;
+                   text-decoration: none;
+                   cursor: pointer;
+                  }
+
                  /* Add styles to the form container */
                  .form-container {
                    max-width: 300px;
