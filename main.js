@@ -3,8 +3,14 @@ function openForm(){
     document.getElementById("contactMe").style.display="block";
 }
 function closeForm(){
-    document.getElementById("contactMe").style.display="none";
+
+    var span = document.getElementsByClassName("close")[0];
+   // document.getElementsByClassName("close").style.display="none"
 }
+   span.onclick = function() {
+    document.getElementById("contactMe").style.display="none"
+      }    
+
 function validate() {
     var name= document.getElementById("name").value;
     var email= document.getElementById("email").value;
@@ -21,4 +27,4 @@ else {
     alert("Form submitted successfully....");
 return true;
 }
-}
+}git

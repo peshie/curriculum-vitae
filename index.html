@@ -35,12 +35,13 @@
 
 				<button class="open-button" onclick="openForm()">Contact Me</button>
 				<div class="form-popup" id="contactMe">
-				<form action="https://formspree.io/patty2luv30@gmail.com" class="form-container" method="post" name="contact-form" onsubmit="return(validate());">
+						<span class="close" onclick="closeForm()">&times;</span>
+				<form action="https://formspree.io/patty2luv30@gmail.com" class="form-container" method="post" name="contact-form" onsubmit="return(validate());"> 
 					<label><b>Name:</b></label><input type="text" name="name" id="name" placeholder="Name" minlength="4" required="" >
 					<label><b>Email:</b></label><input type="email" name="email" id="email" placeholder="Email" required="" >
 					<label><b>Title</b></label><input type="text" name="title" id="title" placeholder="Title:">
 					<label><b>Message</b></label><input type="text" name="message" id="message" placeholder="Message"  minlength="20" required="" >
-					<button type="submit" class="btn" >Send Message</button> <span class="close">&times;</span>
+					<button type="submit" class="btn" >Send Message</button> 
 				</form>
 				</div>
 			</div>
