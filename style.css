@@ -1,186 +1,196 @@
-        body { 
-            font: 16px Georgia, Sans-Serif;
-             line-height: 24px; 
-             padding: 0;
-             margin: 0; 
-             background-color:#dfe4e9;
-             }
+body { 
+    font: 20px Georgia, Sans-Serif;
+     line-height: 24px; 
+     padding: 0;
+     margin: 0; 
+     background-color:#dfe4e9;
+     }
 
-        .clear { 
-            clear: both; 
-            }
-        #page-wrap { 
-            width: 800px;
-             margin: 40px auto 60px;
-                 }
-                 {box-sizing: border-box;}
+.clear { 
+    clear: both; 
+    }
+#page-wrap { 
+    width: 800px;
+     margin: 40px auto 60px;
+         }
+         /*{box-sizing: border-box;}*/
 
-                 /* Button used to open the contact form - fixed at the bottom of the page */
-                 .open-button {
-                   background-color: #555;
-                   color: white;
-                   padding: 16px 20px;
-                   border: none;
-                   cursor: pointer;
-                   overflow: auto;
-                   opacity: 0.8;
-                   position: fixed;
-                   bottom: 23px;
-                   right: 28px;
-                   width: 280px;
-                 }
-                 
-                 /* The popup form - hidden by default */
-                 .form-popup {
-                   display: none;
-                   position:fixed;
-                   bottom: 0;
-                   right: 15px;
-                   border: 3px solid #f1f1f1;
-                   z-index: 9;
-                 }
-                 /* the Close Button */
-               .close {
-                   color: #aaaaaa;
-                   float: right;;
-                   font-size: 28px;
-                   font-weight: bold;
-                  }
-               .close:hover,
-               .close:focus {
-                   color: #000;
-                   text-decoration: none;
-                   cursor: pointer;
-                   
-                  }
+         /* Button used to open the contact form - fixed at the bottom of the page */
+         .open-button {
+           background-color: #555;
+           color: white;
+           padding: 16px 20px;
+           border: none;
+           cursor: pointer;
+           overflow: auto;
+           opacity: 0.8;
+           position: fixed;
+           bottom: 23px;
+           right: 28px;
+           width: 280px;
+         }
+         
+         /* The popup form - hidden by default */
+         .form-popup {
+           display: none;
+           position:fixed;
+           bottom: 0;
+           right: 15px;
+           border: 3px solid #f1f1f1;
+           z-index: 9;
+         }
+         /* the Close Button */
+       .close {
+           color: #aaaaaa;
+           float: right;;
+           font-size: 28px;
+           font-weight: bold;
+           margin-right: 10px;
+          }
+       .close:hover,
+       .close:focus {
+           color: #000;
+           text-decoration: none;
+           cursor: pointer;
+           
+          }
 
-                 /* Add styles to the form container */
-                 .form-container {
-                   max-width: 300px;
-                   padding: 10px;
-                   background-color: white;
-                 }
-                 
-                 /* Full-width input fields */
-                 .form-container input[type=text], .form-container input[type=email] {
-                   width: 100%;
-                   padding: 15px;
-                   margin: 5px 0 22px 0;
-                   border: none;
-                   background: #f1f1f1;
-                 }
-                 
-                 /* When the inputs get focus, do something */
-                 .form-container input[type=text]:focus, .form-container input[type=email]:focus {
-                   background-color: #ddd;
-                   outline: none;
-                 }
-                 
-                 /* Set a style for the submit/login button */
-                 .form-container .btn {
-                   background-color: #4CAF50;
-                   color: white;
-                   padding: 16px 20px;
-                   border: none;
-                   cursor: pointer;
-                   width: 100%;
-                   margin-bottom:10px;
-                   opacity: 0.8;
-                 }
-                 
-                 /* Add a red background color to the cancel button */
-                 .form-container .cancel {
-                   background-color: red;
-                 }
-                 
-                 /* Add some hover effects to buttons */
-                 .form-container .btn:hover, .open-button:hover {
-                   opacity: 1;
-                 }
-                 
-        #contact-info { 
-            float: right;
-             margin: 60px 0 0 0;
+         /* Add styles to the form container */
+         .form-container {
+           max-width: 300px;
+           padding: 10px;
+           background-color: white;
          }
-        h1 {
-             margin: 0 0 16px 0; 
-            padding: 0 0 16px 0; 
-            font-size: 42px; 
-            font-weight: bold; 
-            letter-spacing: -2px; 
-            
+         
+         /* Full-width input fields */
+         .form-container input[type=text], .form-container input[type=email] {
+           width: 90%;
+           padding: 15px;
+           margin: 5px 0 22px 0;
+           border: none;
+           background: #f1f1f1;
          }
-        h2 { 
-            font-size: 20px; 
-            margin: 0 0 6px 0;
-            position: relative; }
-        h2 span { 
-            position: absolute;
-             bottom: 0; 
-             right: 0; 
-             font-style: italic; 
-            color: #999;
-             font-weight: normal;
-             }
-        p {
-             margin: 0 0 16px 0;
-             }
-        a { 
-            color: black; 
-            text-decoration: none; 
-            
-             }
-        a:hover { 
-            border-bottom-style: solid; 
-            color: rgb(28, 8, 99);
-            border-bottom:dotted;
-            }
-        ul { 
-            margin: 0 0 32px 17px;
-            list-style:unset;
+         .form-container textarea {
+           width: 90%;
+           padding: 15px;
+           margin: 5px 0 22px 0;
+           border: none;
+           background: #f1f1f1;
          }
-        #objective {
-             width: 500px; float: left; 
-            }
-        #objective p {
-             font-family: Georgia, Serif; 
-             font-style: italic; color: #666; 
-            }
-        dl {
-	        width: 860px;
-	   }
-        dt { 
-            font-style: italic; font-weight: bold; 
-            font-size: 18px; 
-            text-align: right; 
-            padding: 0 20px 0 0;
-            width: 150px; 
-            float: left;  
-            border-right: 1px solid #999;  
-            }
-        dt.f{
-            height:80px ;
-             }
-        dt.ff{
-            height:250px;
-            
-        }
-        dt.fff{
-            height:150px;
-            
-        }
-        dd { 
-		float: right;
-		width: 80%;
-		padding: 0;
-	    	margin: 0
-            }
-        dd.clear { 
-            float: none; 
-            margin: 0; 
-            height: 15px; 
-            }
-       footer{
-           text-align: center;
-           color: rgb(105, 10, 10);
-       }
+         
+         /* When the inputs get focus, do something */
+         .form-container input[type=text]:focus, .form-container input[type=email]:focus {
+           background-color: #ddd;
+           outline: none;
+         }
+         
+         /* Set a style for the submit/login button */
+         .form-container .btn {
+           background-color: #4CAF50;
+           color: white;
+           padding: 16px 20px;
+           border: none;
+           cursor: pointer;
+           width: 100%;
+           margin-bottom:10px;
+           opacity: 0.8;
+         }
+         
+         /* Add a red background color to the cancel button */
+         .form-container .cancel {
+           background-color: red;
+         }
+         
+         /* Add some hover effects to buttons */
+         .form-container .btn:hover, .open-button:hover {
+           opacity: 1;
+         }
+         
+#contact-info { 
+    float: right;
+     margin: 60px 0 0 0;
+ }
+h1 {
+     margin: 0 0 16px 0; 
+    padding: 0 0 16px 0; 
+    font-size: 42px; 
+    font-weight: bold; 
+    letter-spacing: -2px; 
+    
+ }
+h2 { 
+    font-size: 20px; 
+    margin: 0 0 6px 0;
+    position: relative; }
+h2 span { 
+    position: absolute;
+     bottom: 0; 
+     right: 0; 
+     font-style: italic; 
+    color: #999;
+     font-weight: normal;
+     }
+p {
+     margin: 0 0 16px 0;
+     }
+a { 
+    color: black; 
+    text-decoration: none; 
+    
+     }
+a:hover { 
+    border-bottom-style: solid; 
+    color: rgb(28, 8, 99);
+    border-bottom:dotted;
+    }
+ul { 
+    margin: 0 0 32px 17px;
+    list-style:unset;
+ }
+#objective {
+     width: 500px; float: left;
+     padding-left: 50px; 
+    }
+#objective p {
+     font-family: Georgia, Serif; 
+     font-style: italic; color: #666; 
+    }
+dl {
+    width: 860px;
+  padding-left: 20px; 
+}
+dt { 
+    font-style: italic; font-weight: bold; 
+    font-size: 18px; 
+    text-align: right; 
+    padding: 0 20px 0 0;
+    width: 150px; 
+    float: left;  
+    border-right: 1px solid #999;  
+    }
+dt.f{
+    height:80px ;
+     }
+dt.ff{
+    height:250px;
+    
+}
+dt.fff{
+    height:150px;
+    
+}
+dd { 
+float: right;
+width: 80%;
+padding: 0;
+    margin: 0
+    }
+dd.clear { 
+    float: none; 
+    margin: 0; 
+    height: 15px; 
+    }
+footer{
+   text-align: center;
+   color: rgb(105, 10, 10);
+}
