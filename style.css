@@ -1,5 +1,5 @@
 body { 
-    font: 20px Georgia, Sans-Serif;
+    font: 16px Georgia, Sans-Serif;
      line-height: 24px; 
      padding: 0;
      margin: 0; 
@@ -12,8 +12,9 @@ body {
 #page-wrap { 
     width: 800px;
      margin: 40px auto 60px;
+     
          }
-         /*{box-sizing: border-box;}*/
+         
 
          /* Button used to open the contact form - fixed at the bottom of the page */
          .open-button {
@@ -109,6 +110,7 @@ body {
 #contact-info { 
     float: right;
      margin: 60px 0 0 0;
+     width: 500px;
  }
 h1 {
      margin: 0 0 16px 0; 
@@ -153,14 +155,16 @@ ul {
     }
 #objective p {
      font-family: Georgia, Serif; 
-     font-style: italic; color: #666; 
+     font-style: italic;
+     color: #666; 
     }
 dl {
     width: 860px;
-  padding-left: 20px; 
+    padding-left: 20px; 
 }
 dt { 
-    font-style: italic; font-weight: bold; 
+    font-style: italic; 
+    font-weight: bold; 
     font-size: 18px; 
     text-align: right; 
     padding: 0 20px 0 0;
@@ -180,9 +184,9 @@ dt.fff{
     
 }
 dd { 
-float: right;
-width: 80%;
-padding: 0;
+    float: right;
+    width: 80%;
+    padding: 0;
     margin: 0
     }
 dd.clear { 
